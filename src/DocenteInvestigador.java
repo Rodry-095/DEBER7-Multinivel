@@ -12,7 +12,7 @@ public class DocenteInvestigador extends Docente{
         // super = llama al método de la clase padre
     }
 
-    // SOBRECARGA → mismo método, otro parámetro
+    ////Sobrecarga para el mismo metodo, con otro parametro
     public double calcularPago(double bonoExtra) {
         return calcularPago() + bonoExtra;
     }
